@@ -305,10 +305,17 @@ a :focus {
   width: 50%;
 }
 
+@media only screen and (max-width: 1400px) {
+    body {
+        overflow: hidden;
+		background-size: 120%;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     body {
-        overflow: auto;
-		background-size: 200%;
+        overflow: hidden;
+		background-size: 220%;
     }
 }
 
