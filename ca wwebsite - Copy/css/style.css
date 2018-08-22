@@ -305,6 +305,13 @@ a :focus {
   width: 50%;
 }
 
+@media only screen and (max-width: 1200px) {
+    body {
+        overflow: auto;
+		background-size: 200%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     body {
         overflow: auto;
